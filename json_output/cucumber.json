@@ -1,0 +1,90 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Free CRM New Deals Scenario",
+        "description": "",
+        "id": "deals-data-creation;free-crm-new-deals-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11768443999,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User is in new Deals login page",
+            "match": {
+              "location": "DealStepDefinition.User_is_in_New_Deals_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 266128361,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User enters Username and Password",
+            "match": {
+              "location": "DealStepDefinition.User_enters_Username_and_Password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "srikanth04@gmail.com",
+                  "India123$"
+                ],
+                "line": 5
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 68105204,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on login button",
+            "match": {
+              "location": "DealStepDefinition.User_click_on_Login_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2364074859,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters deal details",
+            "match": {
+              "location": "DealStepDefinition.User_enters_deal_Details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Test deal",
+                  "1000",
+                  "50",
+                  "10"
+                ],
+                "line": 8
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Deals Data Creation",
+    "description": "",
+    "id": "deals-data-creation",
+    "keyword": "Feature",
+    "uri": "D:/Work/Automation/Eclipse/Test_ArtifactID/src/main/java/Features/Deals.feature"
+  }
+]
